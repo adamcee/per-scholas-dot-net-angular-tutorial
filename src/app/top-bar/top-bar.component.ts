@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
 
-import { myVariable, myArray } from '../product-list/product-list.component';
-
-console.log('myVariable: ' + myVariable);
-
 @Component({
   selector: 'app-top-bar',
   templateUrl: './top-bar.component.html',
