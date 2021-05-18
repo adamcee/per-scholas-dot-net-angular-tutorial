@@ -14,9 +14,9 @@ export class ProductListComponent {
     window.alert('The product has been shared!');
   }
 
-  sayHello = function() {
-      return "hello world";
-}
+  sayHello(productName: string) {
+      return productName + ' details';
+  }
 }
 
 
