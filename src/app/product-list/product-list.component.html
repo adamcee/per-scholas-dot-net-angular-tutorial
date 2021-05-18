@@ -1,6 +1,9 @@
 <h2>Products</h2>
 <div *ngFor="let product of products">
   <h3>{{ product.name }}</h3>
+  <p style="background-color: red; border: 2px solid black;">
+    {{ product.description}}
+  </p>
 </div>
 
 <!-- 
