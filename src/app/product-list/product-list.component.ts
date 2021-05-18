@@ -2,6 +2,10 @@ import { Component } from '@angular/core';
 
 import { products } from '../products';
 
+export const myVariable = 6;
+export const myArray = [1,2,3,4];
+
+
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -9,7 +13,6 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
-  myProperty = 'my property on ProductListComponent';
 
   share() {
     window.alert('The product has been shared!');
