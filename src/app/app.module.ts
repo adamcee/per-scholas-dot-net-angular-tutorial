@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
@@ -15,9 +16,10 @@ import { WelcomeComponent } from './welcome/welcome.component';
     RouterModule.forRoot([
       { path: '', component: WelcomeComponent },
       { path: 'product-list', component: ProductListComponent },
+      { path: 'about', component: AboutComponent }
     ])
   ],
-  declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent],
+  declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent, AboutComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
