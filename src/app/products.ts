@@ -17,6 +17,10 @@ export const products = [
     price: 299,
     description: ''
   },
+  
+];
+
+export const shoes = [
   {
     id: 4,
     name: 'Nikes',
@@ -30,7 +34,6 @@ export const products = [
     description: 'Fancy Adidas',
   }
 ];
-
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
