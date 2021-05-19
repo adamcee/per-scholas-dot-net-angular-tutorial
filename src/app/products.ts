@@ -5,7 +5,13 @@ export interface Product {
   description?: string;
 }
 
-export const products: Array<Product> = [
+const myProduct: Product = {
+  id: 5,
+  name: "Soda",
+  price: 5,
+}
+
+export const products = [
   {
     id: 1,
     name: 'Phone XL',

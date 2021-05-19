@@ -8,7 +8,7 @@ import { products, shoes, Product } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  products: Array<Product> = products.concat(shoes);
+  products = products.concat(shoes);
   
   share() {
     window.alert('The product has been shared!');
