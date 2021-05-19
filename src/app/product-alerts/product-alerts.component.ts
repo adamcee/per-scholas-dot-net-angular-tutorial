@@ -1,5 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Product, products } from '../products';
+import { Product } from '../products';
+
+const awesomeProduct = {
+  id: 1,
+  name: "Awesome Product",
+  price: 500,
+}
 
 @Component({
   selector: 'app-product-alerts',
@@ -7,7 +13,8 @@ import { Product, products } from '../products';
   styleUrls: ['./product-alerts.component.css']
 })
 export class ProductAlertsComponent implements OnInit {
-    
+  @Input() product!: Product;
+  
   constructor() { }
 
   ngOnInit() {
