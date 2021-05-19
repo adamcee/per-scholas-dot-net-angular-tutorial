@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,7 @@ import { AboutComponent } from './about/about.component';
       { path: 'about', component: AboutComponent }
     ])
   ],
-  declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent, AboutComponent],
+  declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent, AboutComponent, ProductAlertsComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

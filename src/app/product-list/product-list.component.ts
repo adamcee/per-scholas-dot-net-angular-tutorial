@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { products, shoes } from '../products';
+import { products, shoes, Product } from '../products';
 
 @Component({
   selector: 'app-product-list',
@@ -8,7 +8,7 @@ import { products, shoes } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  products = products.concat(shoes);
+  products: Array<Product> = products.concat(shoes);
   
   share() {
     window.alert('The product has been shared!');
