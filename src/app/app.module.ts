@@ -16,9 +16,9 @@ import { NotifyMeComponent } from './notify-me/notify-me.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: WelcomeComponent },
-      { path: 'product-list', component: ProductListComponent },
-      { path: 'about', component: AboutComponent }
+      { path: '', component: ProductListComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'notify-me', component: NotifyMeComponent }
     ])
   ],
   declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent, AboutComponent, ProductAlertsComponent, NotifyMeComponent],

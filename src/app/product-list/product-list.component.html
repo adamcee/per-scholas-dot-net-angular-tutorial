@@ -13,9 +13,10 @@
   
   <button (click)="share()">Share me!</button>
   <br/>
-  <a [title]="sayHello(product.name)">
+  <a [routerLink]="['notify-me']">
       Notify me for {{ product.name}}
   </a>
+  <br/>
 </div>
 
 
