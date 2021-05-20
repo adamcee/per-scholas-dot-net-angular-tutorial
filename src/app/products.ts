@@ -32,21 +32,6 @@ export const products = [
   },
   
 ];
-
-export const shoes = [
-  {
-    id: 4,
-    name: 'Nikes',
-    price: 100,
-    description: 'Fancy Nikes',
-  },
-  {
-    id: 4,
-    name: 'Adidas',
-    price: 100,
-    description: 'Fancy Adidas',
-  }
-];
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
