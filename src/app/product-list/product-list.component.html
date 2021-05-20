@@ -9,8 +9,12 @@
     <br/>
     Price: {{ product.price }}
   </p>
+  
+  
   <button (click)="share()">Share me!</button>
-  <app-product-alerts [product]="product"></app-product-alerts>
+  <a [title]="sayHello(product.name)">
+      Notify me for {{ product.name}}
+  </a>
 </div>
 
 

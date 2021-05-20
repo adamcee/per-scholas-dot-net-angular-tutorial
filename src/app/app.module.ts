@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { NotifyMeComponent } from './notify-me/notify-me.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
       { path: 'about', component: AboutComponent }
     ])
   ],
-  declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent, AboutComponent, ProductAlertsComponent],
+  declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent, AboutComponent, ProductAlertsComponent, NotifyMeComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
