@@ -2,13 +2,7 @@ export interface Product {
   id: number;
   name: string;
   price: number;
-  description?: string;
-}
-
-const myProduct: Product = {
-  id: 5,
-  name: "Soda",
-  price: 5,
+  description: string;
 }
 
 export const products = [
