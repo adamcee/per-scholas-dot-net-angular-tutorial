@@ -1,6 +1,6 @@
 <h2>Products</h2>
 <div *ngFor="let product of products">
-  <a [title]="sayHello(product.name)">
+  <a [title]="product.name">
       {{ product.name }}
   </a>
   
@@ -11,7 +11,16 @@
   </p>
   
   
-  <button (click)="share()">Share me!</button>
+  <button fooBar="abcedf" (click)="share()">Share me!</button>
+  <br/>
+  
+  <my-awesome-product-alerts 
+    (notify)="onNotify()"
+    [product]="product"
+    blah="seventeen"
+  >
+  </my-awesome-product-alerts>
+
 </div>
 
 
