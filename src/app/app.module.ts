@@ -17,7 +17,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'products/:productId', ProductDetailsComponent}
+      { path: 'products/:productId', component: ProductDetailsComponent },
     ])
   ],
   declarations: [AppComponent, TopBarComponent, ProductListComponent, WelcomeComponent, AboutComponent, ProductAlertsComponent, ProductDetailsComponent],
