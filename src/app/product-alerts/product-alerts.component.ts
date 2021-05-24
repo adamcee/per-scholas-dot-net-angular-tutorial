@@ -2,7 +2,7 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Product } from '../products';
 
 @Component({
-  selector: 'my-awesome-product-alerts',
+  selector: 'product-alerts',
   templateUrl: './product-alerts.component.html',
   styleUrls: ['./product-alerts.component.css']
 })
